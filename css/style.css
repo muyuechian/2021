@@ -120,15 +120,8 @@ the layout
 	background: url('../images/title_bg.jpg');
 }
 
-#header h1 {
-	font-size: 3em;
-	margin: 0 0 0 0;
-	padding: 10px;
-	text-align: left;
-}
-
 #black{
-	font-size: 1.5em;
+	font-size: 2em;
 	margin: 0 0 0 0;
 	padding: 10px;
 	text-align: left;
@@ -136,7 +129,7 @@ the layout
 }
 
 #white{
-	font-size: 1.5em;
+	font-size: 2em;
 	margin: 0 0 0 0;
 	padding: 10px;
 	text-align: left;
@@ -212,12 +205,6 @@ the layout
 
 #CNtext{
 	margin: 20px 0 0 0;
-}
-
-#port li {
-	margin: 0 10px 20px 0;
-	float: left;
-	border: 5px solid #ddd;
 }
 
 #footer {
