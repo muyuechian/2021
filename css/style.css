@@ -203,15 +203,15 @@ the layout
 	font-size: small;
 }
 
-#CNtext{
+#News {
 	margin: 20px 0 0 0;
 }
 
 #footer {
+	bottom: 0%;
 	clear: both;
 	background: rgb(92, 92, 92);
 	padding: 10px;
-	border-top: 2px solid #ddd;
 	text-align: center;
 	color: rgb(233, 233, 233);
 }
