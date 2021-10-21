@@ -10,42 +10,17 @@ a little easier
 */
 body {
 	margin: 0 auto;
-	width: 99%;
+	width: 800px;
 	padding: 0;
-	background: #ffffff top;
-	font-family: Microsoft JhengHei,Helvetica, sans-serif;
+	background: #6e0427 url('../images/body_bg.gif') repeat-x top;
+	font-family: Helvetica, sans-serif;
 	font-size: 62.5%;
 	color: #333;
 }
 
-h1, h2, h3, h4, p, ul, li {
+h1, h2, p, ul, li {
 	margin: 0;
 	padding: 0;
-}
-
-#menu{
-	background: #2b2b2b;
-	text-align: center;
-	margin: 10px 0 0 0;
-	padding:1px;
-	height: 30px;
-}
-
-#menu li{
-	display: inline;
-	
-	margin: 0 0 0 150px;
-	font-size: 150%;
-}
-
-#menu li a{
-	color: #fff;
-	text-decoration: none;
-	background: none;
-}
-
-ul{
-	background: rgb(49, 49, 49)
 }
 
 p {
@@ -54,15 +29,15 @@ p {
 }
 
 ul {
-	list-style-type:none;
+	list-style-type: none;
 }
 
 a:link {
-	color: rgb(219, 114, 114);
-	background: rgba(0, 0, 0, 0);
+	color: #333;
+	background: #eee;
 }
 a:visited {
-	color: #000000;
+	color: #ff0000;
 	background: #eee;
 }
 
@@ -73,6 +48,7 @@ span.amp {
 	font-style: italic;
 }
 
+ 
 #masthead {
 	margin: 0 auto ;
 	margin-top: 20px;
@@ -110,59 +86,32 @@ the layout
 #wrap {
 	clear: both;
 	margin: 0 auto;
-	padding: 100px;
+	padding: 10px;
 	width: 780px;
 	background: #fff;
 	border: 10px solid #5c0505;
 }
 
-#header{
-	background: url('../images/title_bg.jpg');
+#header img {
+	border: 10px solid #ccc;
 }
 
-#black{
+#header h1 {
 	font-size: 2em;
-	margin: 0 0 0 0;
+	margin: 10px 0 0 0;
 	padding: 10px;
-	text-align: left;
-	color: #000000;
-}
-
-#white{
-	font-size: 2em;
-	margin: 0 0 0 0;
-	padding: 10px;
-	text-align: left;
-	color: #ffffff;
-}
-
-#metamorph{
-	color: #fff;
-}
-
-#header h1,h2{
-	margin: 0 0 0 0;
-	padding: 10px;
+	text-align: center;
+	background: url('../images/tagline_bg.gif') repeat-x;
 }
 
 #content, #sidebar {
-	width: 240px;
+	width: 360px;
 	margin: 20px 0 20px 0;
 	padding: 10px;
 }
 
 #content {
-	width: 75%;
 	float: right;
-}
-
-#content h1,h2 {
-	background: none;
-}
-
-#content h1 {
-	font-size: 4em;
-	margin: 0 0 10px 0;
 }
 
 #content h2 {
@@ -184,34 +133,28 @@ the layout
 }
 
 #sidebar {
-	width: 20%;
 	float: left;
-	margin: 0 10px 0 0;
+	background: #eee;
 }
 
 #sidebar h2 {
 	font-weight: bold;
-	color: #fff;
-	background: rgb(87, 87, 87);
-	border-bottom: 1px solid rgb(87, 87, 87);
+	border-bottom: 1px solid #ccc;
 	margin: 0 0 20px 0;
 	padding: 5px;
 }
 
-#sidebar h3{
-	font-weight: bold;
-	font-size: small;
-}
-
-#News {
-	margin: 20px 0 0 0;
+#port li {
+	margin: 0 10px 20px 0;
+	float: left;
+	border: 5px solid #ddd;
 }
 
 #footer {
-	bottom: 0%;
 	clear: both;
-	background: rgb(92, 92, 92);
+	background: #eee;
 	padding: 10px;
+	border-top: 2px solid #ddd;
 	text-align: center;
-	color: rgb(233, 233, 233);
+	color: #777;
 }
