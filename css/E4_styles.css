@@ -1,29 +1,10 @@
-/*reset CSS*/
-*{
-	margin:0;
-	padding:0;
-}
 	
 ul,ol{
 	list-style:none;
 }
-	
-table{
-	border-spacing:0;
-}
-	
-a img, fieldset{
-	border:none;
-}
 
 .clear{
 	clear: both;
-}
-
-/*end reset*/
-
-html{
-	height: 100%;
 }
 
 body{
@@ -33,25 +14,10 @@ body{
 	background: #4f4f4f url(../images/Exercise4/bg.jpg)no-repeat center top;
 	height: 100%;
 }
-
-p{
-	padding-bottom: 4px;
-}
-
 a{
 	color: #970000;
 	font-weight: bold;
 	text-decoration: none;
-}
-
-a:hover{
-	text-decoration: underline;
-}
-
-.ent-bg{
-	background: url(../images/Exercise4/bg.jpg) no-repeat center top;
-	background-attachment:fixed;
-	min-height: 100%;
 }
 
 .as-wrap{
@@ -59,14 +25,8 @@ a:hover{
 	margin: 0 auto;
 }
 
-.as-logo-box{
-	padding-top: 24px;
-	padding-left: 35px;
-	height: 64px;
-}
-
 .as-logo-box a{
-	font-size: 48px;
+	font-size: 52px;
 	color: #000000;
 }
 
@@ -84,7 +44,7 @@ a:hover{
 
 .as-menu-box{
 	background: #ffffff;
-	padding: 0 9px;
+	padding: 0 9px 0;
 }
 
 .as-menu{
@@ -125,10 +85,6 @@ a:hover{
 
 /*header*/
 
-.as-header{
-	position: relative;
-}
-
 .as-left-img{
 	position: absolute;
 	display: block;
@@ -149,58 +105,15 @@ a:hover{
 	margin-top: 90px;
 }
 
-.as-header img{
-	display: block;
-
-}
-
 /*two column*/
-
-.as-two-column{
-	padding: 10px 10px 15px 0;
-}
-
-.as-two-column .as-title-column{
-	text-align: center;
-}
-
 .as-title-column{
 	font-size: 30px;
 	color: #970000;
 	padding: 24px 0;
 }
 
-.as-two-column .as-left, .as-two-column .as-right{
-	width: 47%;
-	float: left;
-}
-
-.as-two-column .as-right{
-	width: 47%;
-	float: right;
-}
-
-/*last box*/
-
-.as-last-box{
-
-}
-
 .as-last-box .as-title-column{
 	padding-left: 38px;
-}
-
-.as-three-columns{
-
-}
-
-.as-three-columns .as-left, .as-three-columns .as-center, .as-three-columns .as-right{
-	width: 325px;
-	float: left;
-}
-
-.as-three-columns .as-center{
-	padding: 0 20px;
 }
 
 .as-last-top{
