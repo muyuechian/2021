@@ -145,7 +145,7 @@ the layout
 }
 
 #port li {
-	margin: 0 0 10px 0;
+	margin: 0 10px 20px 0;
 	float: left;
 	border: 5px solid #ddd;
 }
